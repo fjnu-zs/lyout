@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#000">
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="Open..."
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Ctrl+O"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="Save..."
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Ctrl+S"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="Save As..."
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Ctrl+Shift+S"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            android:background="#fff"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="X Import..."
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="20dp" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="X Export..."
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Ctrl+E"
+            android:textColor="#fff"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            android:background="#fff"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="Quit"
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="20dp" />
+    </TableRow>
+
+</TableLayout>
